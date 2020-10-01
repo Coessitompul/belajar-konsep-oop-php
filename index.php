@@ -31,8 +31,8 @@
   
   // set digunakan untuk men-set suara 'ngik ngik ngok' ke dalam property suara yang ada di dalam class robot.
   $robot1->setSuara('ngik ngik ngok');
-  // get digunakan untuk mengambil data dari dalam property yang berada didalam class robot, jadi ketika nilainya sudah di set maka akan langsung diambil nilainya, sesuai dengan program yang ditulis didalam function getSuara()
-  echo "Suara robotnya adalah " . $robot1->getSuara();
+  $robot1->setSuara('ngik ngik ngok ngok');
+  // get digunakan untuk mengambil data dari dalam property yang berada didalam class robot, jadi ketika nilainya sudah di set maka akan langsung diambil nilainya, sesuai dengan program yang ditulis didalam function getSuara()  
 
   $robot2->setSuara('tereng tereng teng');
   echo "Suara robotnya adalah " . $robot2->getSuara();
