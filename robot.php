@@ -33,13 +33,6 @@
 
   }
 
-  class robotHewan extends robot {
 
-    public function getKekuatan() {
-      echo "saya hewan laut bisa berenang denganjauh...";
-    }
-     
-
-  }
 
 ?>
