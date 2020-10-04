@@ -20,6 +20,7 @@
     // metode set && get
     public function setSuara($suara) {
       $this->suara = $suara;
+      return $this;
     }
 
     public function getSuara() {
