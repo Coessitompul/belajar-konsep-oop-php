@@ -8,7 +8,7 @@
 
 
     // property
-    private $suara;
+    public $suara;
     public $berat;
 
     // constructor
