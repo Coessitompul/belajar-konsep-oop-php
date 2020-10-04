@@ -2,10 +2,13 @@
   
   require_once 'robot.php'; 
   require_once 'hewan.php';
+  require_once 'orang.php';
 
-  $robot1 = new robotHewan('ngik ngok', 20);
-  // disini menggunakan getSuara() yang ada pada class robotHewan, didalam fungsi geSuaraI() tersebut menggunakan property protected suara.
-  echo $robot1->testing(); 
+  // cara pemanggilan public static function bersuara
+  // yang pertama adalah nama classnya kemudian dua titik dua (::) yang merupakan cara untuk memanggil public static function bersuara, kemudian didepan (::) kita panggil nama metode yang ingin kita gunakan yang ada didalam class orang.
+  echo orang::$suara;
 
+  // selain untuk fungsi kita juga bisa menggunakannya untuk property
+  
 
 ?>
