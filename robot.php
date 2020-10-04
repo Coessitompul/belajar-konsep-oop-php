@@ -4,8 +4,11 @@
   // class
   class robot {
     
+    // public, protected, private
+
+
     // property
-    public $suara;
+    private $suara;
     public $berat;
 
     // constructor
